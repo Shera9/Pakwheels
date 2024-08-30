@@ -1,0 +1,40 @@
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 25px;
+    line-height: 1;
+    opacity: .75;
+    color: #808ca9 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+}
+.slick-prev, .slick-next {
+    font-size: 0px !important;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    transform: translate(0, -50%) !important;
+    cursor: pointer;
+    color: #345EC4 !important;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: white !important;
+    z-index: 2;
+}
+.slick-prev:hover, .slick-next:hover{
+     color: white  !important;
+    background: #345EC4 !important;
+   
+ 
+}
+.slick-list .slick-track {
+    width: 100%;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}

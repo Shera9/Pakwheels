@@ -1,0 +1,29 @@
+.PhoneInputInput {
+  
+    min-width: 0;
+    border: none !important;
+    outline: none !important;
+}
+.phone{
+  
+     padding:10px;
+    font-size:15px;
+    border: 1px solid #EAEDEF;
+
+
+}
+/* .phone-outer{
+
+}
+@media screen and (max-width: 768px) {
+    .phone-outer{
+    margin-right: 50px;
+}
+  }
+  
+  @media screen and (max-width: 576px) {
+    .phone-outer{
+     
+        margin-right: 50px;
+}
+  } */
